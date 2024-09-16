@@ -1,7 +1,7 @@
 {
   "entryAssembly": "CompareYourDecks",
   "resources": {
-    "hash": "sha256-4QIMqoB8hPsaBzD1+7G+Z4Vt2M6gesGes0KXgDYCwqE=",
+    "hash": "sha256-GCig4QFCRY4XsELjcKsD/dWFYaKq92cSyysrJ7UloTY=",
     "runtime": {
       "dotnet.7.0.20.1ws31v7uf8.js": "sha256-eaJTmow4t8eE7FZMZR5Ja41JMOefGCbIYDTdpclGsac=",
       "dotnet.timezones.blat": "sha256-gbATD5HDsHYtW8vdPYh9iSBY4O5CjvMeCSF5xXWF1xo=",
@@ -11,7 +11,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "CompareYourDecks.dll": "sha256-yO9CjjhqmB4MpyYV7K0vTeySw2TCA33oxJ6oa7e8G04=",
+      "CompareYourDecks.dll": "sha256-XeWglWpKDK4SPkC7K8h1i09YjDMVd0mHToL/lNsJmLM=",
       "Microsoft.AspNetCore.Components.dll": "sha256-u/lc72EtNG93zIpmRYpr3VErJGksO07giDsfUiFF/xM=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-GP/FySWxwcJjxYncIDxHTFzuLqSI1xq+MDQJzXesK1g=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-0s73uD4ENiSeBhADgw4ct0dSGw9T4mzfj80j0i8v6ww=",
