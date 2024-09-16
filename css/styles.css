@@ -1,0 +1,168 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
+
+:root {
+    --text: #faadff;
+    --background: #1c1c1c;
+    --primary: #c1b3c1;
+    --border: 2px solid var(--primary);
+    --transition: 200ms ease-in-out;
+    --border-radius: 0.5rem;
+}
+
+input {
+    all: unset;
+    color: var(--primary);
+    border-bottom: var(--border);
+    transition: var(--transition);
+
+}
+
+input:hover, input:focus {
+    color: var(--text);
+    border-color: var(--text);
+}
+
+select {
+    all: unset;
+    border-bottom: var(--border);
+}
+
+option {
+    color: var(--background);
+}
+
+button {
+    all: unset;
+    padding: 0.5rem 1rem;
+    border: var(--border);
+    border-top-right-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+button:hover, button:focus {
+    border-color: var(--text);
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.content {
+    
+}
+
+.content-compared {
+    display: flex;
+    gap: 3rem;
+}
+
+.side {
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    border-top: var(--border);
+}
+
+.card-object {
+    display: block;
+    max-width: 23%;
+    text-align: center;
+    border-bottom: var(--border);
+}
+
+.card-object img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-object h5 {
+    margin: 0.25rem;
+}
+
+.content-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+fieldset {
+    border-top-right-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+}
+
+header {
+    border-bottom: var(--border);
+    text-align: center;
+}
+
+nav .decks {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .decks h3 {
+    margin: 0;
+}
+
+footer {
+    border-top: var(--border);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+a {
+    transition: var(--transition);
+}
+
+a:hover, a:focus {
+    cursor: pointer;
+    color: var(--primary);
+}
+
+* {
+    color: var(--text);
+}
+
+html {
+    font-size: 100%;
+    background-color: var(--background);
+}
+
+h1 {
+    font-size: 4.210rem; /* 67.36px */
+}
+
+h2 {
+    font-size: 3.158rem; /* 50.56px */
+}
+
+h3 {
+    font-size: 2.369rem; /* 37.92px */
+}
+
+h4 {
+    font-size: 1.777rem; /* 28.48px */
+}
+
+h5 {
+    font-size: 1.333rem; /* 21.28px */
+}
+
+small {
+    font-size: 0.750rem; /* 12px */
+}
